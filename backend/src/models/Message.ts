@@ -52,11 +52,11 @@ class Message extends Model<Message> {
   isDeleted: boolean;
 
   @CreatedAt
-  @Column(DataType.DATE(6))
+  @Column(DataType.DATE)
   createdAt: Date;
 
   @UpdatedAt
-  @Column(DataType.DATE(6))
+  @Column(DataType.DATE)
   updatedAt: Date;
 
   @ForeignKey(() => Message)

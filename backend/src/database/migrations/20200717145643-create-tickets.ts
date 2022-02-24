@@ -30,11 +30,11 @@ module.exports = {
         onDelete: "SET NULL"
       },
       createdAt: {
-        type: DataTypes.DATE(6),
+        type: DataTypes.DATE,
         allowNull: false
       },
       updatedAt: {
-        type: DataTypes.DATE(6),
+        type: DataTypes.DATE,
         allowNull: false
       }
     });
