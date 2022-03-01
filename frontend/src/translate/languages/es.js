@@ -377,7 +377,7 @@ const messages = {
           assignedTo: "Asignado a:",
           buttons: {
             return: "Devolver",
-            resolve: "Resolver",
+            resolve: "Finalizar",
             reopen: "Reabrir",
             accept: "Aceptar",
           },

@@ -235,8 +235,8 @@ const messages = {
           message: "Mensagem de",
         },
         tabs: {
-          open: { title: "Inbox" },
-          closed: { title: "Resolvidos" },
+          open: { title: "NOVAS" },
+          closed: { title: "FINALIZADAS" },
           search: { title: "Busca" },
         },
         search: {
@@ -376,7 +376,7 @@ const messages = {
           assignedTo: "Atribuído à:",
           buttons: {
             return: "Retornar",
-            resolve: "Resolver",
+            resolve: "Finalizar",
             reopen: "Reabrir",
             accept: "Aceitar",
           },
